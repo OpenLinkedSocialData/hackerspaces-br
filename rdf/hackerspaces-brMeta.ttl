@@ -1,0 +1,22 @@
+@prefix irc: <http://purl.org/socialparticipation/irc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/socialparticipation/po/Snapshot#hackerspaces-br> a po:Snapshot ;
+    rdfs:label "Snapshot hackerspaces-br" ;
+    po:acquiredThrough "Lalenia supybot"^^xsd:string ;
+    po:availableAt "https://github.com/ttm/"^^xsd:string ;
+    po:createdAt "2015-10-15"^^xsd:string ;
+    po:discorveryRDFFile "https://raw.githubusercontent.com/ttm/hackerspaces-br/master/rdf/hackerspaces-brMeta.owl"^^xsd:string ;
+    po:discoveryTTLFile "https://raw.githubusercontent.com/ttm/hackerspaces-br/master/rdf/hackerspaces-brMeta.ttl"^^xsd:string ;
+    po:donatedBy "labMacambira.sf.net"^^xsd:string ;
+    po:originalFile "https://raw.githubusercontent.com/ttm/hackerspaces-br/master/base/#hackerspaces-br.log"^^xsd:string ;
+    po:rdfFile "https://raw.githubusercontent.com/ttm/hackerspaces-br/master/rdf/hackerspaces-brTranslate.owl"^^xsd:string ;
+    po:triplifiedIn "2015-11-15T03:17:09.016525"^^xsd:datetime ;
+    po:ttlFile "https://raw.githubusercontent.com/ttm/hackerspaces-br/master/rdf/hackerspaces-brTranslate.ttl"^^xsd:string ;
+    rdfs:comment "The IRC log of the #hackerspaces-br.log IRC channel log"^^xsd:string .
+
